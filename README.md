@@ -10,13 +10,16 @@ Cat environment monitoring.
     * DS18B20 temperature sensor
     * Some Dupont F-M cables
     * Rpi power supply
-* Software
+* Software:
     * Raspbian configured in Rpi
     * Python
         * DH11 library: https://github.com/adafruit/Adafruit_Python_DHT
         * DS18B20 library: https://pypi.org/project/w1thermsensor/
         * requests library: http://docs.python-requests.org/es/latest/
+        * thingspeak library (in progress): https://thingspeak.readthedocs.io/en/latest
     * Register for an API key in https://thingspeak.com/
 * References:
     * https://thingspeak.readthedocs.io/en/latest
-    * 
+    * http://docs.python-requests.org/es/
+    * https://github.com/adafruit/Adafruit_Python_DHT
+    * https://pypi.org/project/w1thermsensor/
